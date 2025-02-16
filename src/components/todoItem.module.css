@@ -1,0 +1,81 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px lightslategrey;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 5px 20px black; 
+}
+
+
+.taskContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.checkbox {
+  margin-right: 10px; /* Reduce extra space */
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.text {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+} 
+
+.editButton, .deleteButton {
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.editButton:hover, .deleteButton:hover {
+  transform: scale(1.2);
+}
+
+.editContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.editInput {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid lightslategrey;
+  border-radius: 4px;
+}
+
+.saveButton {
+  cursor: pointer;
+  font-size: 18px;
+  color: green;
+  transition: transform 0.2s ease;
+}
+
+.saveButton:hover {
+  transform: scale(1.2);
+}

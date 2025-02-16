@@ -1,0 +1,17 @@
+.app {
+  text-align: center;
+  font-family:monospace;
+  background-color:whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  margin-top: 120px;
+  box-shadow: 0px 0px 10px black;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 23px;
+}

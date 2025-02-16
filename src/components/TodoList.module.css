@@ -1,0 +1,30 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.filterSelect {
+  width: 287px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid lightslategrey;
+}
+
+.taskWrapper {
+  height: 250px; 
+  width: 375px; 
+  overflow-y: scroll; 
+  border: 2px solid lightslategray;
+  padding: 10px;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
